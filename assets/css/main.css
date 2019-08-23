@@ -9,6 +9,8 @@
 */
 
 /* Reset */
+
+
 .experience-header {
 	block-size: 100px 100px;
 	margin-bottom: 0;
@@ -51,6 +53,16 @@ p {
 	grid-template-columns: 800px 800px;
 	grid-template-rows: 400px 400px;
 	grid-template-areas: ". ." ". .";
+}
+.tech-section {
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.tech-image {
+	width: 50px;
+	height: 50px
 }
 .experience-content {
 	/* box-sizing: border-box;
